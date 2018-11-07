@@ -1,0 +1,17 @@
+{
+  "applications": [
+    {
+      "application": "testing",
+      "runtime": "vertx",
+      "capabilities": [
+        {
+          "module": "database",
+          "databaseType": "mysql",
+          "artifactId": "booster",
+          "groupId": "io.openshift.booster",
+          "version": "1.0.0-SNAPSHOT"
+        }
+      ]
+    }
+  ]
+}
